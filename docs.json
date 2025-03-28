@@ -82,50 +82,50 @@
                 "language": "zh",
                 "tabs": [
                     {
-                        "tab": "Documentation",
+                        "tab": "文档",
                         "groups": [
                             {
-                                "group": "Get Started",
+                                "group": "开始",
                                 "pages": [
-                                    "introduction",
+                                    "介绍",
                                     {
-                                        "group": "Quickstart",
+                                        "group": "快速入门",
                                         "pages": [
-                                            "quickstart/server",
-                                            "quickstart/client",
-                                            "quickstart/user"
+                                            "zh-CN/quickstart/server",
+                                            "zh-CN/quickstart/client",
+                                            "zh-CN/quickstart/user"
                                         ]
                                     },
-                                    "examples",
-                                    "clients"
+                                    "zh-CN/examples",
+                                    "zh-CN/clients"
                                 ]
                             },
                             {
-                                "group": "Tutorials",
+                                "group": "教程",
                                 "pages": [
-                                    "tutorials/building-mcp-with-llms",
-                                    "docs/tools/debugging",
-                                    "docs/tools/inspector"
+                                    "zh-CN/tutorials/building-mcp-with-llms",
+                                    "zh-CN/docs/tools/debugging",
+                                    "zh-CN/docs/tools/inspector"
                                 ]
                             },
                             {
-                                "group": "Concepts",
+                                "group": "概念",
                                 "pages": [
-                                    "docs/concepts/architecture",
-                                    "docs/concepts/resources",
-                                    "docs/concepts/prompts",
-                                    "docs/concepts/tools",
-                                    "docs/concepts/sampling",
-                                    "docs/concepts/roots",
-                                    "docs/concepts/transports"
+                                    "zh-CN/docs/concepts/architecture",
+                                    "zh-CN/docs/concepts/resources",
+                                    "zh-CN/docs/concepts/prompts",
+                                    "zh-CN/docs/concepts/tools",
+                                    "zh-CN/docs/concepts/sampling",
+                                    "zh-CN/docs/concepts/roots",
+                                    "zh-CN/docs/concepts/transports"
                                 ]
                             },
                             {
-                                "group": "Development",
+                                "group": "开发",
                                 "pages": [
-                                    "development/updates",
-                                    "development/roadmap",
-                                    "development/contributing"
+                                    "zh-CN/development/updates",
+                                    "zh-CN/development/roadmap",
+                                    "zh-CN/development/contributing"
                                 ]
                             }
                         ]
@@ -137,9 +137,9 @@
                             {
                                 "group": "Java",
                                 "pages": [
-                                    "sdk/java/mcp-overview",
-                                    "sdk/java/mcp-client",
-                                    "sdk/java/mcp-server"
+                                    "zh-CN/sdk/java/mcp-overview",
+                                    "zh-CN/sdk/java/mcp-client",
+                                    "zh-CN/sdk/java/mcp-server"
                                 ]
                             }
                         ]
