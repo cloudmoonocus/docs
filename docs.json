@@ -9,71 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Documentation",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              {
-                "group": "Quickstart",
-                "pages": [
-                  "quickstart/server",
-                  "quickstart/client",
-                  "quickstart/user"
-                ]
-              },
-              "examples",
-              "clients"
-            ]
-          },
-          {
-            "group": "Tutorials",
-            "pages": [
-              "tutorials/building-mcp-with-llms",
-              "docs/tools/debugging",
-              "docs/tools/inspector"
-            ]
-          },
-          {
-            "group": "Concepts",
-            "pages": [
-              "docs/concepts/architecture",
-              "docs/concepts/resources",
-              "docs/concepts/prompts",
-              "docs/concepts/tools",
-              "docs/concepts/sampling",
-              "docs/concepts/roots",
-              "docs/concepts/transports"
-            ]
-          },
-          {
-            "group": "Development",
-            "pages": [
-              "development/updates",
-              "development/roadmap",
-              "development/contributing"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "SDKs",
-        "icon": "book-open",
-        "groups": [
-          {
-            "group": "Java",
-            "pages": [
-              "sdk/java/mcp-overview",
-              "sdk/java/mcp-client",
-              "sdk/java/mcp-server"
-            ]
-          }
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
@@ -107,7 +42,80 @@
           "icon": "book"
         }
       ]
-    }
+    },
+    "languages": [
+      {
+        "language": "en",
+        "tabs": [
+            {
+              "tab": "Documentation",
+              "groups": [
+                {
+                  "group": "Get Started",
+                  "pages": [
+                    "introduction",
+                    {
+                      "group": "Quickstart",
+                      "pages": [
+                        "quickstart/server",
+                        "quickstart/client",
+                        "quickstart/user"
+                      ]
+                    },
+                    "examples",
+                    "clients"
+                  ]
+                },
+                {
+                  "group": "Tutorials",
+                  "pages": [
+                    "tutorials/building-mcp-with-llms",
+                    "docs/tools/debugging",
+                    "docs/tools/inspector"
+                  ]
+                },
+                {
+                  "group": "Concepts",
+                  "pages": [
+                    "docs/concepts/architecture",
+                    "docs/concepts/resources",
+                    "docs/concepts/prompts",
+                    "docs/concepts/tools",
+                    "docs/concepts/sampling",
+                    "docs/concepts/roots",
+                    "docs/concepts/transports"
+                  ]
+                },
+                {
+                  "group": "Development",
+                  "pages": [
+                    "development/updates",
+                    "development/roadmap",
+                    "development/contributing"
+                  ]
+                }
+              ]
+            },
+            {
+              "tab": "SDKs",
+              "icon": "book-open",
+              "groups": [
+                {
+                  "group": "Java",
+                  "pages": [
+                    "sdk/java/mcp-overview",
+                    "sdk/java/mcp-client",
+                    "sdk/java/mcp-server"
+                  ]
+                }
+              ]
+            }
+          ],
+      },
+      {
+        "language": "zh"
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
